@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D20670C1558514900DA8CB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D20670B1558514900DA8CB5 /* UIKit.framework */; };
+		2D20670E1558514900DA8CB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D20670D1558514900DA8CB5 /* Foundation.framework */; };
+		2D2067101558514900DA8CB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D20670F1558514900DA8CB5 /* CoreGraphics.framework */; };
+		2D2067161558514900DA8CB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D2067141558514900DA8CB5 /* InfoPlist.strings */; };
+		2D2067181558514900DA8CB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2067171558514900DA8CB5 /* main.m */; };
+		2D20671C1558514900DA8CB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D20671B1558514900DA8CB5 /* AppDelegate.m */; };
+		2D20671F1558514900DA8CB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D20671E1558514900DA8CB5 /* ViewController.m */; };
+		2D2067221558514900DA8CB5 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D2067201558514900DA8CB5 /* ViewController_iPhone.xib */; };
+		2D2067251558514900DA8CB5 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D2067231558514900DA8CB5 /* ViewController_iPad.xib */; };
+		2D4CA9B31886E6F800042729 /* VSSpeechSynthesizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4CA9B21886E6F800042729 /* VSSpeechSynthesizer.m */; };
+		2D4CA9B51886ED4300042729 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4CA9B41886ED4300042729 /* Images.xcassets */; };
+		2DB2B5A215585F5A00E22215 /* VoiceServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB2B5A115585F5A00E22215 /* VoiceServices.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		2DB2B5BC1559669D00E22215 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB2B5BB1559669D00E22215 /* AVFoundation.framework */; };
+		2DB2B5BE155966A800E22215 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB2B5BD155966A800E22215 /* AudioToolbox.framework */; };
+		2DB2B5C0155966AC00E22215 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB2B5BF155966AC00E22215 /* CoreAudio.framework */; };
+		2DB2B5C2155966CB00E22215 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB2B5C1155966CB00E22215 /* OpenAL.framework */; };
+		2DB2B5C4155966D800E22215 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB2B5C3155966D800E22215 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D2067071558514900DA8CB5 /* TTSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D20670B1558514900DA8CB5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2D20670D1558514900DA8CB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2D20670F1558514900DA8CB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2D2067131558514900DA8CB5 /* TTSDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TTSDemo-Info.plist"; sourceTree = "<group>"; };
+		2D2067151558514900DA8CB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D2067171558514900DA8CB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D2067191558514900DA8CB5 /* TTSDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TTSDemo-Prefix.pch"; sourceTree = "<group>"; };
+		2D20671A1558514900DA8CB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D20671B1558514900DA8CB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D20671D1558514900DA8CB5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D20671E1558514900DA8CB5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D2067211558514900DA8CB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		2D2067241558514900DA8CB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		2D2067941558546200DA8CB5 /* VSSpeechSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSSpeechSynthesizer.h; sourceTree = "<group>"; };
+		2D4CA9B21886E6F800042729 /* VSSpeechSynthesizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSSpeechSynthesizer.m; sourceTree = "<group>"; };
+		2D4CA9B41886ED4300042729 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2DB2B5A115585F5A00E22215 /* VoiceServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VoiceServices.framework; path = System/Library/PrivateFrameworks/VoiceServices.framework; sourceTree = SDKROOT; };
+		2DB2B5BB1559669D00E22215 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2DB2B5BD155966A800E22215 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2DB2B5BF155966AC00E22215 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		2DB2B5C1155966CB00E22215 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		2DB2B5C3155966D800E22215 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D2067041558514900DA8CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB2B5C4155966D800E22215 /* SystemConfiguration.framework in Frameworks */,
+				2DB2B5C2155966CB00E22215 /* OpenAL.framework in Frameworks */,
+				2DB2B5C0155966AC00E22215 /* CoreAudio.framework in Frameworks */,
+				2DB2B5BE155966A800E22215 /* AudioToolbox.framework in Frameworks */,
+				2DB2B5BC1559669D00E22215 /* AVFoundation.framework in Frameworks */,
+				2D20670C1558514900DA8CB5 /* UIKit.framework in Frameworks */,
+				2D20670E1558514900DA8CB5 /* Foundation.framework in Frameworks */,
+				2D2067101558514900DA8CB5 /* CoreGraphics.framework in Frameworks */,
+				2DB2B5A215585F5A00E22215 /* VoiceServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D2066FC1558514900DA8CB5 = {
+			isa = PBXGroup;
+			children = (
+				2D2067111558514900DA8CB5 /* TTSDemo */,
+				2D20670A1558514900DA8CB5 /* Frameworks */,
+				2D2067081558514900DA8CB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D2067081558514900DA8CB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D2067071558514900DA8CB5 /* TTSDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D20670A1558514900DA8CB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DB2B5C3155966D800E22215 /* SystemConfiguration.framework */,
+				2DB2B5C1155966CB00E22215 /* OpenAL.framework */,
+				2DB2B5BF155966AC00E22215 /* CoreAudio.framework */,
+				2DB2B5BD155966A800E22215 /* AudioToolbox.framework */,
+				2DB2B5BB1559669D00E22215 /* AVFoundation.framework */,
+				2DB2B5A115585F5A00E22215 /* VoiceServices.framework */,
+				2D20670B1558514900DA8CB5 /* UIKit.framework */,
+				2D20670D1558514900DA8CB5 /* Foundation.framework */,
+				2D20670F1558514900DA8CB5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D2067111558514900DA8CB5 /* TTSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2D20671A1558514900DA8CB5 /* AppDelegate.h */,
+				2D20671B1558514900DA8CB5 /* AppDelegate.m */,
+				2D20671D1558514900DA8CB5 /* ViewController.h */,
+				2D20671E1558514900DA8CB5 /* ViewController.m */,
+				2D2067201558514900DA8CB5 /* ViewController_iPhone.xib */,
+				2D2067231558514900DA8CB5 /* ViewController_iPad.xib */,
+				2D2067121558514900DA8CB5 /* Supporting Files */,
+				2D2067941558546200DA8CB5 /* VSSpeechSynthesizer.h */,
+				2D4CA9B21886E6F800042729 /* VSSpeechSynthesizer.m */,
+				2D4CA9B41886ED4300042729 /* Images.xcassets */,
+			);
+			path = TTSDemo;
+			sourceTree = "<group>";
+		};
+		2D2067121558514900DA8CB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D2067131558514900DA8CB5 /* TTSDemo-Info.plist */,
+				2D2067141558514900DA8CB5 /* InfoPlist.strings */,
+				2D2067171558514900DA8CB5 /* main.m */,
+				2D2067191558514900DA8CB5 /* TTSDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D2067061558514900DA8CB5 /* TTSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D2067281558514900DA8CB5 /* Build configuration list for PBXNativeTarget "TTSDemo" */;
+			buildPhases = (
+				2D2067031558514900DA8CB5 /* Sources */,
+				2D2067041558514900DA8CB5 /* Frameworks */,
+				2D2067051558514900DA8CB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTSDemo;
+			productName = TTSDemo;
+			productReference = 2D2067071558514900DA8CB5 /* TTSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D2066FE1558514900DA8CB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2D2067011558514900DA8CB5 /* Build configuration list for PBXProject "TTSDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ar,
+				ca,
+				cs,
+				da,
+				Dutch,
+				el,
+				en_GB,
+				fi,
+				French,
+				German,
+				he,
+				hr,
+				hu,
+				id,
+				Italian,
+				Japanese,
+				ko,
+				no,
+				pl,
+				pt,
+				pt_PT,
+				ro,
+				ru,
+				sk,
+				Spanish,
+				sv,
+				th,
+				tr,
+				uk,
+				vi,
+				zh_CN,
+				zh_TW,
+			);
+			mainGroup = 2D2066FC1558514900DA8CB5;
+			productRefGroup = 2D2067081558514900DA8CB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D2067061558514900DA8CB5 /* TTSDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D2067051558514900DA8CB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2067161558514900DA8CB5 /* InfoPlist.strings in Resources */,
+				2D4CA9B51886ED4300042729 /* Images.xcassets in Resources */,
+				2D2067221558514900DA8CB5 /* ViewController_iPhone.xib in Resources */,
+				2D2067251558514900DA8CB5 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D2067031558514900DA8CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2067181558514900DA8CB5 /* main.m in Sources */,
+				2D4CA9B31886E6F800042729 /* VSSpeechSynthesizer.m in Sources */,
+				2D20671C1558514900DA8CB5 /* AppDelegate.m in Sources */,
+				2D20671F1558514900DA8CB5 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D2067141558514900DA8CB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D2067151558514900DA8CB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2D2067201558514900DA8CB5 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D2067211558514900DA8CB5 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		2D2067231558514900DA8CB5 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D2067241558514900DA8CB5 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D2067261558514900DA8CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D2067271558514900DA8CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D2067291558514900DA8CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/PrivateFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTSDemo/TTSDemo-Prefix.pch";
+				INFOPLIST_FILE = "TTSDemo/TTSDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2D20672A1558514900DA8CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/PrivateFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTSDemo/TTSDemo-Prefix.pch";
+				INFOPLIST_FILE = "TTSDemo/TTSDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D2067011558514900DA8CB5 /* Build configuration list for PBXProject "TTSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2067261558514900DA8CB5 /* Debug */,
+				2D2067271558514900DA8CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D2067281558514900DA8CB5 /* Build configuration list for PBXNativeTarget "TTSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2067291558514900DA8CB5 /* Debug */,
+				2D20672A1558514900DA8CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D2066FE1558514900DA8CB5 /* Project object */;
+}
